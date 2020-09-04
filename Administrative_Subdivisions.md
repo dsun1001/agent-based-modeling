@@ -2,4 +2,4 @@
 
 Produced a plot of Liberia with it's first and second level of administrative subdivisions.
 
-![](Liberia.png)
+![](liberia.png)
