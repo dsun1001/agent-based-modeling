@@ -9,4 +9,4 @@ Produced a plot of Liberia with it's first and second level of administrative su
 
 For this part, I followed the same steps as above but took shp files from HDX. 
 
-![](angola.png)
+![](angola_hdx.png)
