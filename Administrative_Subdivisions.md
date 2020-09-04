@@ -7,6 +7,6 @@ Produced a plot of Liberia with it's first and second level of administrative su
 
 ### Individual Stretch Goal 1: 
 
-For this part, I followed the same steps as above but took shp files from HDX. 
+For this part, I followed the same steps as above but took shp files from HDX. It seems that for the most part, GADM and HDX have similar data.
 
 ![](angola_hdx.png)
