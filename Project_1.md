@@ -10,3 +10,9 @@ For selecting an administrative subdivision, I chose the province of Ogooué-Mar
 
 ![](ogoouemaritime.png)
 ![](gab_adm2_bp.png)
+
+### De Facto Description of Human Settlements and Urban Areas
+
+First, we start by cropping and masking our raster layer to focus on Bendjé, and this is the result. 
+
+![](bendje.png)
