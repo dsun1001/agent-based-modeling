@@ -16,3 +16,7 @@ For selecting an administrative subdivision, I chose the province of Ogooué-Mar
 First, we start by cropping and masking our raster layer to focus on Bendjé, and this is the result. 
 
 ![](bendje.png)
+
+Next, we use the `spatstat` package in order to create a point pattern based on our geospatial distribution of all persons in Bendjé. 
+
+![](bendje_ppp.png)
