@@ -20,3 +20,7 @@ First, we start by cropping and masking our raster layer to focus on Bendjé, an
 Next, we use the `spatstat` package in order to create a point pattern based on our geospatial distribution of all persons in Bendjé. 
 
 ![](bendje_ppp.png)
+
+Based off of the ppp, we can now create a density plot. 
+
+![](bendje_density_image.png)
