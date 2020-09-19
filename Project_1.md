@@ -6,6 +6,7 @@ Produced a combined spatial description and geometric bar plot of Gabon's popula
 
 ![](gabon.png)
 
-For selecting an administrative subdivision, I chose the province of Ogooué-Maritime. I chose it because it also borders the Atlantic Ocean, and I wanted to see if that had any effect on the population. I plotted the population and density using the same method as above for Gabon, and used the smaller administrative subdivisions, or departments. I thought it was really interesting how the northern department of Bendjé had by far the largest population, as it borders the most populous province, Estuaire.
+For selecting an administrative subdivision, I chose the province of Ogooué-Maritime. I chose it because it also borders the Atlantic Ocean, and I wanted to see if that had any effect on the population. I plotted the population and density using the same method as above for Gabon, and used the smaller administrative subdivisions, or departments. I thought it was really interesting how the northern department of Bendjé had by far the largest population, as it borders the most populous province, Estuaire. We can also see the same conclusion about the population distribution between the departments in Ogooué-Maritime in the following geometric bar plot. 
 
 ![](ogoouemaritime.png)
+![](gab_adm2_bp.png)
