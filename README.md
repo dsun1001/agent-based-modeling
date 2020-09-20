@@ -6,6 +6,6 @@ Repository for Data 441
 1. [A Person's Path Between Homes](PathBetweenHomes.md)
 2. [Projecting, Plotting, and Labelling Administrative Subdivisions](Administrative_Subdivisions.md)
 3. [Extracting Populations from a Raster](Populations_From_Raster.md)
-4. [Project 1: Geometric Bar Plot](Project_1_Part_1.md)
+4. [Project 1: Part 1](Project_1_Part_1.md)
 5. [Project 1: Part 2](Project_1_Part_2.md)
 6. [Data Insight 1](DataInsight1.md)
