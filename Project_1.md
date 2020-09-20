@@ -24,3 +24,11 @@ Next, we use the `spatstat` package in order to create a point pattern based on 
 Based off of the ppp, we can now create a density plot. 
 
 ![](bendje_density_image.png)
+
+We then begin to create our polygons, with a density estimate contour of 300,000. 
+
+![](subpolys_filtered.png)
+
+Finally, we can make our map of Urbanized Areas throughout Bendjé, Gabon. 
+
+![](bendje_urbanized_areas.png)
