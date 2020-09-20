@@ -29,6 +29,6 @@ We then begin to create our polygons, with a density estimate contour of 300,000
 
 ![](subpolys_filtered.png)
 
-Finally, we can make our map of Urbanized Areas throughout Bendjé, Gabon. 
+Finally, we can make our map of Urbanized Areas throughout Bendjé, Gabon. I was pretty surprised to see that with the exception of one tiny settlement near the middle-eastern region, all of the populated areas were on the western side. I believe that this is due to the proximity to the Atlantic Ocean. 
 
 ![](bendje_urbanized_areas.png)
