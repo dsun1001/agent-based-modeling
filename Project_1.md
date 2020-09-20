@@ -32,3 +32,8 @@ We then begin to create our polygons, with a density estimate contour of 300,000
 Finally, we can make our map of Urbanized Areas throughout Bendjé, Gabon. I was pretty surprised to see that with the exception of one tiny settlement near the middle-eastern region, all of the populated areas were on the western side. I believe that this is due to the proximity to the Atlantic Ocean. 
 
 ![](bendje_urbanized_areas.png)
+
+### Stretch Goal
+
+The following graph shows Zipf's Law in relation to the populations of the settlements in Bendje and their rank. I took the log of the population in 2020 and the log of their rank, and overall the trend follows the power law.
+![](bendje_zipf.png)
