@@ -6,6 +6,6 @@ First, we start by adding roads in Bendjé. As we can see, there is not much dev
 
 ![](bendje_roadways.png)
 
-Next, we take data for healthcare facilities from HDX. After cropping the data to Bendjé, we find that there is 1 doctor, 5 clinics, and 7 pharmacies in Bendjé. They are represented by blue dots, and we overlay this information on the roads and population data from before to get the following result. 
+Next, we take data for healthcare facilities from HDX. After cropping the data to Bendjé, we find that there is 1 doctor, 5 clinics, and 7 pharmacies in Bendjé. They are represented by blue dots, and we overlay this information on the roads and population data from before to get the following result. It makes sense that the healthcare in Bendjé is limited to the same northwest region that both most of the population is, and also the majority of the roadwork. 
 
 ![](bendje_healthcare.png)
