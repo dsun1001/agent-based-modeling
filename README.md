@@ -10,3 +10,4 @@ Repository for Data 441
 5. [Project 1: Part 2](Project_1_Part_2.md)
 6. [Data Insight 1](DataInsight1.md)
 7. [Data Insight 2](DataInsight2.md)
+8. [Project 2](Project2.md)
