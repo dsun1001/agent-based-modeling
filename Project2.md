@@ -4,4 +4,4 @@
 
 Placeholder
 
-![](bendje_ppp_houses.png)
+![](bendje_ppp_house.png)
