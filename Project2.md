@@ -41,7 +41,12 @@ I also created heatmaps showing the correlation between size of household, age, 
 ![](raw.png)
 ![](percent.png)
 
+In order to make predictions about education levels, the data was split 60/40 into training and test data sets. A multinomial regression model and ranger implementation of random forest were trained on the training data. 
 
+Comparing the ROC of the multinomial regression and ranger models respectively, we can see that they both had similar results. 
+
+![](mnlr_roc.png)
+![](ranger_roc.png)
 
 
 
