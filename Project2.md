@@ -43,7 +43,7 @@ I also created heatmaps showing the correlation between size of household, age, 
 
 In order to make predictions about education levels, the data was split 60/40 into training and test data sets. A multinomial regression model and ranger implementation of random forest were trained on the training data. 
 
-Comparing the ROC of the multinomial regression and ranger models respectively, we can see that they both had similar results. 
+Comparing the ROC of the multinomial regression and ranger models respectively, we can see that they both had similar results. Looking at the area under the curve (AUC) of both graphs, none of them are very high which indicates that there is not a high degree of separability. Both models are slightly better than flipping a coin in distinguishing between classes, and the models are about equal in their ability to predict the classes. 
 
 ![](mnlr_roc.png)
 ![](ranger_roc.png)
