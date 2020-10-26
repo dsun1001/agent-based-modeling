@@ -27,3 +27,22 @@ Locating the households at the adm2 level for Bendjé mostly followed the same p
 And also a confirmation of the projection below. 
 
 ![](bendje_projection.png)
+
+The overall accuracy of the synthetically generated population is about the same level of accuracy for both adm0 and adm2 level, and looking at the distribution of size of households for Gabon compared to Bendjé shows that they are pretty similar. There are slight variations, and I think to increase the accuracy I could increase the sample size in the future. 
+
+![](bendje_household_dist.png)
+
+#### When compared to a randomly generated synthetic population that describes the demographic attributes of households and persons, does yours more closely approximate reality? How is yours an improvement over a synthetic population that was generated in accordance with complete spatial randomness? Generate plots and incorporate results from your work as evidence in support of an argument that the synthetic population you generated is a good approximation of the reality that existed in your selected location at that given time.
+
+Compared to an entirely random synthetic population, mine more closely approximates reality. Even just using the real population distribution as a function for how to give synthetic household locations will make an enormous difference. The household size distribution also closely resembles the real world data. 
+
+I also created heatmaps showing the correlation between size of household, age, gender, and education for the household data. One heatmap is created from raw data, and the other percentizes the data. From the charts, we can see that the percentized has more potential to make predictions. 
+
+![](raw.png)
+![](percent.png)
+
+
+
+
+
+
