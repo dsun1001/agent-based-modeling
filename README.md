@@ -13,3 +13,4 @@ Repository for Data 441
 8. [Project 2](Project2.md)
 9. [Data Insight 3](DataInsight3.md)
 10. [In Class Essay](InClassEssay.md)
+11. [Final Project](FinalProject.md)
