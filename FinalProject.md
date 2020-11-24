@@ -14,7 +14,7 @@ With our London model, we follow an approach that first estimates some values fo
 
 ![](london_grav.png)
 
-### Bendjé and Gabon
+### Gabon
 
 Now that we know a little about how to make a gravity model, we can start to take a look at using these methods on our data for Gabon. We can get some data about Gabon's migration flow from [WorldPop Migration Flow](https://www.worldpop.org/geodata/summary?id=1281). Additionally, we take in [data from WorldPop about night-time lights](https://www.worldpop.org/geodata/summary?id=18614) as another characteristic of the location that we can use. 
 
@@ -32,6 +32,13 @@ Looking at the inmigration next, our graph shows us that it is mainly the county
 
 ![](inmigration.png)
 
+In order to get a better understanding of migration patterns, we can try to create an animation to get a visual representation of migration flows from county to county. For Gabon, this is the animation I produced. 
+
+![](output.gif)
+
+There were several steps needed in order to produce this GIF. First, we needed the center points of each county, and then also to draw a vector path between the center points for our model to move points from each origin to destination. The animation was created using gganimate, and the for this animation the data set was taken from a timespan of one year, and this could be increased with additional datasets. The gravity model could be used to create a model that better reflects reality by creating a model for which individual points have characteristics that influence their migration decisions. 
+
+### Bendjé 
 
 ![](bendje_urbanized_areas_final.png)
 
