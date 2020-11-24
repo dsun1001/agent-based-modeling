@@ -40,8 +40,19 @@ There were several steps needed in order to produce this GIF. First, we needed t
 
 ### Bendjé 
 
+For the next part, I took a look at the same adm2 level subdivision that I've used in my previous projects, Bendjé, 
+and used the center points of each settlement in order to produce a tesselation of voronoi polygons. 
+
+To do this, first, I imported data from previous projects for the synthetically generated population and also the de facto settlement boundaries. 
+
+We can take a look at the urbanized areas of Bendjé below. As we can see, the vast majority of the population lives on the western coast, and there are very small population centers in the rest of Bendjé. 
+
 ![](bendje_urbanized_areas_final.png)
 
+To create our voronoi polygons, we need to find the urban centroids, or the center of mass of the population for each subdivision. Next, we create a bounding box using Bendjé and turn that into a polygon. Finally, we can create our voronoi polygons, and this is the result. 
+
 ![](bendje_voronoi_pre.png)
+
+As we can see above, the polygons extend outside of the actual area of Bendjé. To fix this, we can use `st_intersect` in order to only keep the parts of the polygons inside the area that we want, and this is the final result. 
 
 ![](bendje_voronoi_final.png)
