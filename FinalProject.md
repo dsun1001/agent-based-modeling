@@ -20,6 +20,8 @@ With our London model, we follow an approach that first estimates some values fo
 
 [WorldPop Night-time Lights](https://www.worldpop.org/geodata/summary?id=18614)
 
+![](bendje_urbanized_areas_final.png)
+
 ![](bendje_voronoi_pre.png)
 
 ![](bendje_voronoi_final.png)
