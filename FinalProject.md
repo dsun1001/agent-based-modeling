@@ -14,11 +14,15 @@ With our London model, we follow an approach that first estimates some values fo
 
 ![](london_grav.png)
 
-### Bendjé
+### Bendjé and Gabon
 
-[WorldPop Migration Flow](https://www.worldpop.org/geodata/summary?id=1281)
+Now that we know a little about how to make a gravity model, we can start to take a look at using these methods on our data for Gabon. We can get some data about Gabon's migration flow from [WorldPop Migration Flow](https://www.worldpop.org/geodata/summary?id=1281). Additionally, we take in [data from WorldPop about night-time lights](https://www.worldpop.org/geodata/summary?id=18614) as another characteristic of the location that we can use. 
 
-[WorldPop Night-time Lights](https://www.worldpop.org/geodata/summary?id=18614)
+Once we have the data loaded into RStudio, we can begin to manipulate it. The first step is to find the names of the origin and destination counties and also find the distances between them so that we can use it in our gravity model. After that, we can add in our night-time light data as another characteristic. The result is our origin destination matrix, which looks like this.
+
+![](gabon_od_matrix.png)
+
+
 
 ![](bendje_urbanized_areas_final.png)
 
