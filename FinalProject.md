@@ -13,3 +13,7 @@ According to Garcia et al, this is the modern from of the gravity model. The flu
 With our London model, we follow an approach that first estimates some values for the gracity model to use when predicting flow, and then look at error values to assess how well we're estimating our parameters. However, in order to find the best parameters for us to use, we can take the logarithms of our gravity model in order to create a regression model. However, rather than using a log-normal regression model, in this case we use a Poisson regression model. This is because with migration, we need to deal with non-negative integer counts. After we have our Poisson regression model, we can use it to estimate our parameters. Once we have the new parameters, we can once again estimate our flow estimates, and it looks like this. 
 
 ![](london_grav.png)
+
+### Bendje
+
+[WorldPop Migration Flow](https://www.worldpop.org/geodata/summary?id=1281)
