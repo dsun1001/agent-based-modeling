@@ -22,6 +22,15 @@ Once we have the data loaded into RStudio, we can begin to manipulate it. The fi
 
 ![](gabon_od_matrix.png)
 
+The values describe the number of people migrating from one county to another, and the diagonals are blank because there's no migration in or out of the same county an individual is in. 
+
+For our next step, we can plot the total outmigration of each county. As we can see, it seems that the southeast area of the country generally has more outmigration compared to the eastern half. 
+
+![](outmigration.png)
+
+Looking at the inmigration next, our graph shows us that it is mainly the county with the capital that has by far the most inmigration. Whereas for the outmigration there were differences in the rates for each county, all of the counties in this case all have similarly low numbers for inmigration except for the capital. 
+
+![](inmigration.png)
 
 
 ![](bendje_urbanized_areas_final.png)
